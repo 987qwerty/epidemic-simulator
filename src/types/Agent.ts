@@ -1,6 +1,6 @@
-import { AgentStatus, IAgent, SimulationParams } from "../types";
+import { AgentStatus, SimulationParams } from "../types";
 import {Obstacle} from '../types/Obstacle'
-export class Agent implements IAgent{
+export class Agent {
     x: number;
     y: number;
     vx: number;

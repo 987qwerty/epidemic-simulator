@@ -28,7 +28,7 @@ function createWindow() {
   win = new BrowserWindow({
     width: 650,
     height: 775,
-    autoHideMenuBar: true,
+    //autoHideMenuBar: true,
     //resizable: false,
     icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
     webPreferences: {

@@ -1,5 +1,4 @@
-import {  IObstacle, } from "../types";
-export class Obstacle implements IObstacle{
+export class Obstacle {
     x: number;
     y: number;
     radius: number;
