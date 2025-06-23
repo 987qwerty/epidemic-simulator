@@ -4,7 +4,7 @@ export interface SimulationParams {
   agentsAmount: number,
   infectionRate: number,
   recoveryTime: number,
-  agentSpeed: number, 
+  agentSpeed: number,
   infectionRadius: number,
   isSocialIsolation: boolean,
   socialIsolationDistance: number

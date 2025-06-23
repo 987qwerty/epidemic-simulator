@@ -61,7 +61,7 @@ const EpidemicChart: React.FC<Props> = ({ data }) => {
       );
 
     // Оси
-    
+
     const xAxis = d3.axisBottom(x).ticks(Math.min(10, data.length));
     const yAxis = d3.axisLeft(y);
 
@@ -82,7 +82,7 @@ const EpidemicChart: React.FC<Props> = ({ data }) => {
       .append("text")
       .attr("x", -height / 2)
       .attr("y", -40)
-        .attr("text-anchor", "middle")
+      .attr("text-anchor", "middle")
       .attr("transform", "rotate(-90)")
       .attr("fill", "white")
       .attr('font-size', 13)
